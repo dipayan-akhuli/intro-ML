@@ -82,10 +82,16 @@ def average_LR_RMSE(X, y, lambdas, n_folds):
     # and fill all entries in the matrix 'RMSE_mat'
 
     kf = KFold(n_splits=n_folds)
+    j = 0
     for lamda in lambdas:
+        i = 0
         for train, test in kf.split(X):
             X_train, X_test, y_train, y_test = X[train], X[test], y[train], y[test]
             w = fit(X_train, y_train, lamda)
+            RMSE_mat[i, j] = calculate_RMSE(w, X_test, y_test)
+            i+=1
+        j+=1
+
 
     
 
