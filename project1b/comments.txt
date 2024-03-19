@@ -1,0 +1,6 @@
+- choice of loss: square, Huber (not great for features not in the same scale - linear, quadratic, exponential - square loss better option)
+- solver: grad descent and stochastic avg grad descent (saga) - both have similar scores, so converge to same solution, so choose normal grad descent
+- penalty/regularization: ridge vs lasso; lasso kills linear and quadratic features and intercept (these have small weights in ridge), 
+better for feature selection; so we choose ridge
+- choice of lambda for ridge: 5-fold CV for diff lambda values, avg RMSE is best for lambda = 10 on our training data, so we choose this value, 
+  even though lambda = 100 works best on public test data; we don't want to overfit to public test data
