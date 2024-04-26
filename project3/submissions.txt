@@ -1,0 +1,3 @@
+Submission	Pre-trained model			Neural network					Loss function			Epochs
+----------	-----------------			--------------					-------------			------
+5		ResNet50_Weights.IMAGENET1K_V2		6144-fc-1024-relu-fc-64-relu-fc-1		nn.BCEWithLogitsLoss()		10
