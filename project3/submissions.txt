@@ -1,3 +1,5 @@
-Submission	Pre-trained model			Neural network					Loss function			Epochs
-----------	-----------------			--------------					-------------			------
-5		ResNet50_Weights.IMAGENET1K_V2		6144-fc-1024-relu-fc-64-relu-fc-1		nn.BCEWithLogitsLoss()		10
+Submission	Pre-trained model			Neural network					Loss function			Epochs		Final validation accuracy
+----------	-----------------			--------------					-------------			------		-------------------------
+5		ResNet50_Weights.IMAGENET1K_V2		6144-fc-1024-relu-fc-64-relu-fc-1		nn.BCEWithLogitsLoss()		10		NA
+6		ResNet50_Weights.IMAGENET1K_V2		6144-fc-1024-relu-drop-fc-64-relu-drop-fc-1	nn.BCEWithLogitsLoss()		5 + 2		89%
+7		ResNet50_Weights.IMAGENET1K_V2		6144-fc-512-relu-fc-1				nn.BCEWithLogitsLoss()		5 + 2		90%
