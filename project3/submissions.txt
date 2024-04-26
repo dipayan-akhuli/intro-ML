@@ -1,5 +1,10 @@
-Submission	Pre-trained model			Neural network					Loss function			Epochs		Final validation accuracy
-----------	-----------------			--------------					-------------			------		-------------------------
-5		ResNet50_Weights.IMAGENET1K_V2		6144-fc-1024-relu-fc-64-relu-fc-1		nn.BCEWithLogitsLoss()		10		NA
-6		ResNet50_Weights.IMAGENET1K_V2		6144-fc-1024-relu-drop-fc-64-relu-drop-fc-1	nn.BCEWithLogitsLoss()		5 + 2		89%
-7		ResNet50_Weights.IMAGENET1K_V2		6144-fc-512-relu-fc-1				nn.BCEWithLogitsLoss()		5 + 2		90%
+Submission	Pre-trained model				Neural network					Loss function			Epochs		Final validation accuracy
+----------	-----------------				--------------					-------------			------		-------------------------
+5		ResNet50_Weights.IMAGENET1K_V2			6144-fc-1024-relu-fc-64-relu-fc-1		nn.BCEWithLogitsLoss()		10		NA
+6		ResNet50_Weights.IMAGENET1K_V2			6144-fc-1024-relu-drop-fc-64-relu-drop-fc-1	nn.BCEWithLogitsLoss()		5 + 2		89%
+7		ResNet50_Weights.IMAGENET1K_V2			6144-fc-512-relu-fc-1				nn.BCEWithLogitsLoss()		5 + 2		90%
+8		ConvNeXt_Small_Weights.IMAGENET1K_V1		2304-fc-1024-relu-fc-64-relu-fc-1		nn.BCEWithLogitsLoss()		5 + 2		86%
+9		ConvNeXt_Small_Weights.IMAGENET1K_V1		2304-fc-512-relu-fc-32-relu-fc-1		nn.BCEWithLogitsLoss()		4 + 2		85%
+10		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-1024-relu-fc-64-relu-fc-1		nn.BCEWithLogitsLoss()		5 + 2		90%
+11		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-512-relu-fc-32-relu-fc-1		nn.BCEWithLogitsLoss()		5 + 2		89%
+
