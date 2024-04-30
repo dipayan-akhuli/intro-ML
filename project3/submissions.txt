@@ -1,10 +1,21 @@
-Submission	Pre-trained model				Neural network					Loss function			Epochs		Final validation accuracy
-----------	-----------------				--------------					-------------			------		-------------------------
-5		ResNet50_Weights.IMAGENET1K_V2			6144-fc-1024-relu-fc-64-relu-fc-1		nn.BCEWithLogitsLoss()		10		NA
-6		ResNet50_Weights.IMAGENET1K_V2			6144-fc-1024-relu-drop-fc-64-relu-drop-fc-1	nn.BCEWithLogitsLoss()		5 + 2		89%
-7		ResNet50_Weights.IMAGENET1K_V2			6144-fc-512-relu-fc-1				nn.BCEWithLogitsLoss()		5 + 2		90%
-8		ConvNeXt_Small_Weights.IMAGENET1K_V1		2304-fc-1024-relu-fc-64-relu-fc-1		nn.BCEWithLogitsLoss()		5 + 2		86%
-9		ConvNeXt_Small_Weights.IMAGENET1K_V1		2304-fc-512-relu-fc-32-relu-fc-1		nn.BCEWithLogitsLoss()		4 + 2		85%
-10		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-1024-relu-fc-64-relu-fc-1		nn.BCEWithLogitsLoss()		5 + 2		90%
-11		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-512-relu-fc-32-relu-fc-1		nn.BCEWithLogitsLoss()		5 + 2		89%
+Result		Pre-trained model				Neural network					Epochs		Final validation accuracy
+------		-----------------				--------------					------		-------------------------
+5		ResNet50_Weights.IMAGENET1K_V2			6144-fc-1024-relu-fc-64-relu-fc-1		10		NA
+6		ResNet50_Weights.IMAGENET1K_V2			6144-fc-1024-relu-drop-fc-64-relu-drop-fc-1	5 + 2		89%
+7		ResNet50_Weights.IMAGENET1K_V2			6144-fc-512-relu-fc-1				5 + 2		90%
+8		ConvNeXt_Small_Weights.IMAGENET1K_V1		2304-fc-1024-relu-fc-64-relu-fc-1		5 + 2		86%
+9		ConvNeXt_Small_Weights.IMAGENET1K_V1		2304-fc-512-relu-fc-32-relu-fc-1		4 + 2		85%
+10		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-1024-relu-fc-64-relu-fc-1		5 + 2		90%
+11		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-512-relu-fc-32-relu-fc-1		5 + 2		89%
+12		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-1024-relu-fc-64-relu-fc-1		5 + 2		98% (Cross-validation: DON'T USE!)
+13		RegNet_Y_128GF_Weights.IMAGENET1K_SWAG_E2E_V1	22176-fc-1024-relu-fc-64-relu-fc-1		5 + 5*		89%
+14		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-1024-relu-fc-128-relu-fc-1		9 + 7*		80% (dropout=0.3 (+0), BN, He norm weights, l2=0.0001, lr=0.001)
+15		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-1024-relu-fc-128-relu-fc-1		10 + 8*		82% (dropout=0.3 (-0), BN, He norm weights, l2=0.0001, lr=0.001)
+16		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-1024-relu-fc-128-relu-fc-1		8 + 8*		81% (dropout=0.2 (+0), BN, He norm weights, l2=0.0001, lr=0.001)
+17		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-512-relu-fc-32-relu-fc-1		8 + 8*		79% (dropout=0.3 (+0), BN, He norm weights, l2=0.0001, lr=0.001)
+18		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-1024-relu-fc-128-relu-fc-1		10 + 7*		80% (dropout=0.3 (+0), BN, He norm weights, l2=0.0003, lr=0.0005)
+19		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-1024-relu-fc-64-relu-fc-1		8 + 8*		77% (dropout=0.3 (+0), BN, He norm weights, l2=0.0002, lr=0.001)
+
+
+
 
