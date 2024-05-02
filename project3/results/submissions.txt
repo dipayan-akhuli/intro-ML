@@ -28,6 +28,10 @@ Result		Pre-trained model				Neural network					Epochs		Final validation accurac
 49		Swin_V2_B_Weights.IMAGENET1K_V1			3072-fc-300-elu-300-elu-1			25 + 25*	87% (dropout=0.5 (-0), LeCun norm weights, l2=0.00003, lr=0.0003)
 50		ViT_L_16_Weights.IMAGENET1K_SWAG_LINEAR_V1	3072-fc-200-elu-200-elu-1			25 + 15*	86% (dropout=0.5 (-0), LeCun norm weights, l2=0, lr=0.0003)
 51		ViT_L_16_Weights.IMAGENET1K_SWAG_LINEAR_V1	3072-fc-200-elu-200-elu-1			25 + 25*	88% (dropout=0.5 (-0), LeCun norm weights, l2=0, lr=0.0003)
+52		ViT_L_16_Weights.IMAGENET1K_SWAG_LINEAR_V1	3072-fc-200-elu-200-elu-1			23 + 15*	88% (dropout=0.5 (-0), LeCun norm weights, l2=0, lr=0.0003)
+53		ViT_L_16_Weights.IMAGENET1K_SWAG_LINEAR_V1	3072-fc-200-elu-200-elu-1			23 + 20*	88% (dropout=0.5 (-0), LeCun norm weights, l2=0, lr=0.0003)
+54		ViT_L_16_Weights.IMAGENET1K_SWAG_LINEAR_V1	3072-fc-200-elu-200-elu-1			23 + 15*	88% (dropout=0.5 (-0), LeCun norm weights, l2=0, lr=0.0003)
+
 
 
 

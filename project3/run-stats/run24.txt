@@ -1,0 +1,81 @@
+Epoch 1, Batch id 0, training loss 0.8238517045974731
+Epoch 1, Batch id 200, training loss 0.5929189920425415
+Epoch 1, Batch id 400, training loss 0.6181861162185669
+Epoch 1, Batch id 600, training loss 0.5212967395782471
+Epoch 1, Batch id 800, training loss 0.506117582321167
+Epoch 1, Batch id 1000, training loss 0.4672303795814514
+Epoch 1, Batch id 1200, training loss 0.5662831664085388
+Epoch 1, Batch id 1400, training loss 0.5545528531074524
+Epoch 1, valid loss 0.5430616140365601
+Epoch 1, accuracy: (70%)
+Epoch 2, Batch id 0, training loss 0.4670337438583374
+Epoch 2, Batch id 200, training loss 0.6115789413452148
+Epoch 2, Batch id 400, training loss 0.6194772720336914
+Epoch 2, Batch id 600, training loss 0.5318030714988708
+Epoch 2, Batch id 800, training loss 0.51119065284729
+Epoch 2, Batch id 1000, training loss 0.5637558698654175
+Epoch 2, Batch id 1200, training loss 0.43741393089294434
+Epoch 2, Batch id 1400, training loss 0.4386410713195801
+Epoch 2, valid loss 0.524290919303894
+Epoch 2, accuracy: (72%)
+Epoch 3, Batch id 0, training loss 0.4507450759410858
+Epoch 3, Batch id 200, training loss 0.4459517002105713
+Epoch 3, Batch id 400, training loss 0.5273343920707703
+Epoch 3, Batch id 600, training loss 0.47789233922958374
+Epoch 3, Batch id 800, training loss 0.5398110151290894
+Epoch 3, Batch id 1000, training loss 0.4396139085292816
+Epoch 3, Batch id 1200, training loss 0.6207824945449829
+Epoch 3, Batch id 1400, training loss 0.46308010816574097
+Epoch 3, valid loss 0.5131940245628357
+Epoch 3, accuracy: (73%)
+Epoch 4, Batch id 0, training loss 0.3943566381931305
+Epoch 4, Batch id 200, training loss 0.5945450067520142
+Epoch 4, Batch id 400, training loss 0.5492031574249268
+Epoch 4, Batch id 600, training loss 0.47551053762435913
+Epoch 4, Batch id 800, training loss 0.4961186945438385
+Epoch 4, Batch id 1000, training loss 0.45149219036102295
+Epoch 4, Batch id 1200, training loss 0.49053171277046204
+Epoch 4, Batch id 1400, training loss 0.6627790927886963
+Epoch 4, valid loss 0.49999499320983887
+Epoch 4, accuracy: (74%)
+Epoch 5, Batch id 0, training loss 0.43560507893562317
+Epoch 5, Batch id 200, training loss 0.38674047589302063
+Epoch 5, Batch id 400, training loss 0.37275925278663635
+Epoch 5, Batch id 600, training loss 0.6594719886779785
+Epoch 5, Batch id 800, training loss 0.5345987677574158
+Epoch 5, Batch id 1000, training loss 0.5511389970779419
+Epoch 5, Batch id 1200, training loss 0.5008080005645752
+Epoch 5, Batch id 1400, training loss 0.5197615623474121
+Epoch 5, valid loss 0.49079787731170654
+Epoch 5, accuracy: (75%)
+Epoch 6, Batch id 0, training loss 0.4638219177722931
+Epoch 6, Batch id 200, training loss 0.516249418258667
+Epoch 6, Batch id 400, training loss 0.41747164726257324
+Epoch 6, Batch id 600, training loss 0.43875548243522644
+Epoch 6, Batch id 800, training loss 0.36534595489501953
+Epoch 6, Batch id 1000, training loss 0.45094504952430725
+Epoch 6, Batch id 1200, training loss 0.38560497760772705
+Epoch 6, Batch id 1400, training loss 0.515271782875061
+Epoch 6, valid loss 0.479445219039917
+Epoch 6, accuracy: (75%)
+Epoch 7, Batch id 0, training loss 0.3371175527572632
+Epoch 7, Batch id 200, training loss 0.34316933155059814
+Epoch 7, Batch id 400, training loss 0.3229430913925171
+Epoch 7, Batch id 600, training loss 0.4251161217689514
+Epoch 7, Batch id 800, training loss 0.37549304962158203
+Epoch 7, Batch id 1000, training loss 0.4528122544288635
+Epoch 7, Batch id 1200, training loss 0.399673193693161
+Epoch 7, Batch id 1400, training loss 0.5421478748321533
+Epoch 7, valid loss 0.47281399369239807
+Epoch 7, accuracy: (76%)
+Epoch 8, Batch id 0, training loss 0.3916175067424774
+Epoch 8, Batch id 200, training loss 0.4285210967063904
+Epoch 8, Batch id 400, training loss 0.43393266201019287
+Epoch 8, Batch id 600, training loss 0.44055479764938354
+Epoch 8, Batch id 800, training loss 0.4555213451385498
+Epoch 8, Batch id 1000, training loss 0.614762008190155
+Epoch 8, Batch id 1200, training loss 0.31414198875427246
+Epoch 8, Batch id 1400, training loss 0.4413166046142578
+Epoch 8, valid loss 0.4706895351409912
+Epoch 8, accuracy: (77%)
+Early stopping after 8 epochs.
