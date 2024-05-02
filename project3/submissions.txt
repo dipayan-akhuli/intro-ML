@@ -9,12 +9,30 @@ Result		Pre-trained model				Neural network					Epochs		Final validation accurac
 11		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-512-relu-fc-32-relu-fc-1		5 + 2		89%
 12		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-1024-relu-fc-64-relu-fc-1		5 + 2		98% (Cross-validation: DON'T USE!)
 13		RegNet_Y_128GF_Weights.IMAGENET1K_SWAG_E2E_V1	22176-fc-1024-relu-fc-64-relu-fc-1		5 + 5*		89%
-14		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-1024-relu-fc-128-relu-fc-1		9 + 7*		80% (dropout=0.3 (+0), BN, He norm weights, l2=0.0001, lr=0.001)
-15		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-1024-relu-fc-128-relu-fc-1		10 + 8*		82% (dropout=0.3 (-0), BN, He norm weights, l2=0.0001, lr=0.001)
-16		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-1024-relu-fc-128-relu-fc-1		8 + 8*		81% (dropout=0.2 (+0), BN, He norm weights, l2=0.0001, lr=0.001)
-17		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-512-relu-fc-32-relu-fc-1		8 + 8*		79% (dropout=0.3 (+0), BN, He norm weights, l2=0.0001, lr=0.001)
-18		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-1024-relu-fc-128-relu-fc-1		10 + 7*		80% (dropout=0.3 (+0), BN, He norm weights, l2=0.0003, lr=0.0005)
-19		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-1024-relu-fc-64-relu-fc-1		8 + 8*		77% (dropout=0.3 (+0), BN, He norm weights, l2=0.0002, lr=0.001)
+26		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-1024-relu-fc-128-relu-fc-1		9 + 7*		80% (dropout=0.3 (+0), BN, He norm weights, l2=0.0001, lr=0.001)
+27		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-1024-relu-fc-128-relu-fc-1		10 + 8*		82% (dropout=0.3 (-0), BN, He norm weights, l2=0.0001, lr=0.001)
+28		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-1024-relu-fc-128-relu-fc-1		8 + 8*		81% (dropout=0.2 (+0), BN, He norm weights, l2=0.0001, lr=0.001)
+29		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-512-relu-fc-32-relu-fc-1		8 + 8*		79% (dropout=0.3 (+0), BN, He norm weights, l2=0.0001, lr=0.001)
+30		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-1024-relu-fc-128-relu-fc-1		10 + 7*		80% (dropout=0.3 (+0), BN, He norm weights, l2=0.0003, lr=0.0005)
+31		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-1024-relu-fc-64-relu-fc-1		8 + 8*		77% (dropout=0.3 (+0), BN, He norm weights, l2=0.0002, lr=0.001)
+39		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-1024-relu-fc-128-relu-fc-1		10 + 10*	76% (dropout=0.3 (+0), BN, He norm weights, l2=0.0001, lr=0.001)
+40		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-1000-relu-fc-100-relu-fc-10-relu-fc-1	10 + 10*	77% (dropout=0.2 (+0), BN, He norm weights, l2=0.00001, lr=0.01)
+41		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-2048-relu-fc-256-relu-fc-32-relu-fc-1	10 + 10*	89% (dropout=0.2 (-0), BN, He norm weights, l2=0.0001, lr=0.001)
+42		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-2048-relu-fc-256-relu-fc-32-relu-fc-1	20 + 20*	86% (dropout=0.3 (+0), BN, He norm weights, l2=0.0001, lr=0.001)
+43		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-512-relu-fc-64-relu-fc-8-relu-fc-1	15 + 15*	83% (dropout=0.3 (-0), BN, He norm weights, l2=0.0002, lr=0.001)
+44		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-2000-relu-fc-200-relu-fc-20-relu-fc-1	15 + 15*	86% (dropout=0.3 (+0), BN, He norm weights, l2=0.0001, lr=0.001)
+45		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-1000-relu-500-relu-200-relu-100-relu-1	15 + 15*	87% (dropout=0.3 (+0), BN, He norm weights, l2=0.0001, lr=0.001)
+46		RegNet_Y_16GF_Weights.IMAGENET1K_SWAG_E2E_V1	9072-fc-200-elu-200-elu-1			14 + 15*	90% (dropout=0.5 (-0), LeCun norm weights, l2=0, lr=0.0003)
+47		Swin_V2_B_Weights.IMAGENET1K_V1			3072-fc-200-elu-200-elu-1			18 + 20*	85% (dropout=0.5 (-0), LeCun norm weights, l2=0, lr=0.0003)
+48		Swin_V2_B_Weights.IMAGENET1K_V1			3072-fc-200-elu-200-elu-1			18 + 18*	86% (dropout=0.4 (-0), LeCun norm weights, l2=0.00001, lr=0.0003)
+49		Swin_V2_B_Weights.IMAGENET1K_V1			3072-fc-300-elu-300-elu-1			25 + 25*	87% (dropout=0.5 (-0), LeCun norm weights, l2=0.00003, lr=0.0003)
+50		ViT_L_16_Weights.IMAGENET1K_SWAG_LINEAR_V1	3072-fc-200-elu-200-elu-1			25 + 15*	86% (dropout=0.5 (-0), LeCun norm weights, l2=0, lr=0.0003)
+51		ViT_L_16_Weights.IMAGENET1K_SWAG_LINEAR_V1	3072-fc-200-elu-200-elu-1			25 + 25*	88% (dropout=0.5 (-0), LeCun norm weights, l2=0, lr=0.0003)
+
+
+
+
+
 
 
 
