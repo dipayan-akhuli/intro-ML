@@ -1,0 +1,8 @@
+Result		Transformer							Neural network				Epochs		Final validation loss
+------		-----------							--------------				------		-------------------------
+1		GPT-2, comb.title+sentence, raw.embed, last.token		500-500, elu, drop=0.1			10		~6.5
+2		GPT-2, comb.title+sentence, raw.embed, last.token		500-500-500, elu, drop=0.1		20		~5.5
+3		GPT-2, comb.title+sentence, mask.embed, words.mean		500-500-500, elu, drop=0.1		30		~5.5
+4		GPT-2, comb.title+sentence, mask.embed, words.sum		500-500-500, elu, drop=0.1		40		~2.6		
+5		GPT-2, sepr.title+sentence, mask.embed, words.sum		500-500-500, elu, drop=0.1		50		~2.5	
+6		GPT-2, sepr.title+sentence, mask.embed, words.sum		200-200, elu, drop=0			50		~1.9	

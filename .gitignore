@@ -1,3 +1,5 @@
 .DS_Store
 project0/.ipynb_checkpoints
 project3/dataset/
+project4/prev-embeddings/
+project4/*.npy
