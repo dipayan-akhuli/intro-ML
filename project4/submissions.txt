@@ -6,10 +6,11 @@ Result		Transformer							Neural network				Epochs		Final validation loss
 4		GPT-2, comb.title+sentence, mask.embed, words.sum		500-500-500, elu, drop=0.1		40		~2.6		
 5		GPT-2, sepr.title+sentence, mask.embed, words.sum		500-500-500, elu, drop=0.1		50		~2.5	
 6		GPT-2, sepr.title+sentence, mask.embed, words.sum		200-200, elu, drop=0			50		~1.9	
-7		ALBERT, sepr.title+sentence, mask.embed, words.sum		500-500-500, elu, drop=0.1		30		~1.5	
-8		ALBERT, sepr.title+sentence, mask.embed, words.sum		200-200, elu, drop=0			50		~0.65	
-9		ALBERT, comb.title+sentence, mask.embed, words.sum		500-500, elu, drop=0			60		~1.1	
-10		ALBERT, comb.title+sentence, mask.embed, words.sum		500-500-500, elu, drop=0		80		~0.9
-11		ALBERT, comb.title+sentence, mask.embed, words.sum		200-200, elu, drop=0			50		~1.4
+7		ALBERT-base, sepr.title+sentence, mask.embed, words.sum		500-500-500, elu, drop=0.1		30		~1.5	
+8		ALBERT-base, sepr.title+sentence, mask.embed, words.sum		200-200, elu, drop=0			50		~0.65	
+9		ALBERT-base, comb.title+sentence, mask.embed, words.sum		500-500, elu, drop=0			60		~1.1	
+10		ALBERT-base, comb.title+sentence, mask.embed, words.sum		500-500-500, elu, drop=0		80		~0.9
+11		ALBERT-base, comb.title+sentence, mask.embed, words.sum		200-200, elu, drop=0			50		~1.4
+12		ALBERT-xxlarge, comb.title+sentence, mask.embed, words.sum	500-500, elu, drop=0					~0.9	
 
 	
